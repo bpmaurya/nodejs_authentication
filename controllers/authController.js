@@ -19,7 +19,7 @@ const handErrors = (err) => {
   //duplicate errors
   if (err.code === 11000) {
     errors.email = "that email is already registered";
-    return errors;
+    return errors;   
   }
 
   //validations errors
