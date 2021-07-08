@@ -14,7 +14,7 @@ app.set("view engine", "ejs");
 
 //database connection
 const dbURI =
-  "mongodb+srv://<username>:<password>@cluster0.7phaq.mongodb.net/test";
+  "mongodb+srv://<username>@<password>:<password>@cluster0.7phaq.mongodb.net/test";
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
